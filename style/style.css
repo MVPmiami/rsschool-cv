@@ -43,3 +43,18 @@ h1 {
   margin-right: 440px;
 }
 
+main {
+  background-color: #efefef;
+  font-size: 1.2em;
+}
+
+.goals-and-priorities {
+  padding-left: 30px;
+  border-bottom: 20px solid #365972;
+}
+
+#my-goals-and-priorities {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #365972;
+  width: 370px;
+}
