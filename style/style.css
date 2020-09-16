@@ -1,16 +1,16 @@
 body {
+  margin-left: 20%;
+  margin-top: 0;
+  margin-bottom: 0;
   display: flex;
   flex-flow: column;
   align-items: center;
   width: 60%;
-  margin-left: 20%;
-  margin-top: 0;
-  margin-bottom: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-width: 100%;
+  width: 100% ;
 background-color: #efefef;
 }
 
@@ -19,6 +19,9 @@ h1 {
 }
 
 .my-photo {
+  position: relative;
+  left: 20px;
+  bottom: 20px;
   background-image: url(../image/WP0o6c20aY4.jpg);
   width: 250px;
   height: 275px;
@@ -26,9 +29,6 @@ h1 {
   background-position-y: -121px;
   border: 1px solid #f5f3f8;
   border-radius: 30%;
-  position: relative;
-  left: 20px;
-  bottom: 20px;
 }
 
 .photo-and-contacts {
@@ -41,8 +41,27 @@ h1 {
 }
 
 .contacts {
-  margin-right: 440px;
+  margin-right: 20px;
 }
+
+@media (max-width: 1030px) {
+  .my-photo {
+    background-image: none;
+    width: 0px;
+    height: 0px;
+  }
+
+  .contacts {
+    margin: 0 20% 0 20%;
+  }
+}
+
+@media(max-width: 667px) {
+  header {
+    min-width: 400px;
+  }
+}
+
 
 main {
   background-color: #efefef;
