@@ -5,6 +5,7 @@ body {
   width: 60%;
   margin-left: 20%;
   margin-top: 0;
+  margin-bottom: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -54,6 +55,17 @@ main {
 }
 
 #my-goals-and-priorities {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #365972;
+  width: 370px;
+}
+
+.skills-and-education {
+  padding-left: 30px;
+  border-bottom: 20px solid #365972;
+}
+
+#skills-and-education {
   padding-bottom: 4px;
   border-bottom: 2px solid #365972;
   width: 370px;
